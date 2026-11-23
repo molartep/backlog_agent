@@ -1,0 +1,17 @@
+{
+  "main_module": "worker.js",
+  "compatibility_date": "2026-11-23",
+  "bindings": [
+    { "name": "DB", "type": "d1", "database_id": "YOUR_D1_DATABASE_ID" },
+    { "name": "AI", "type": "ai" },
+    { "name": "NOTION_DATABASE_ID", "type": "plain_text", "text": "YOUR_NOTION_DATABASE_ID" },
+    { "name": "AI_MODEL", "type": "plain_text", "text": "@cf/meta/llama-3.3-70b-instruct-fp8-fast" }
+  ],
+  "observability": {
+    "enabled": true,
+    "logs": { "enabled": true, "invocation_logs": true },
+    "traces": { "enabled": true, "head_sampling_rate": 0.01 },
+    "redact_query_string": true
+  },
+  "keep_bindings": ["secret_text"]
+}

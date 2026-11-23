@@ -1,0 +1,13 @@
+{
+  "name": "backlogbot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/worker.js && node --check scripts/setup.mjs && node --check scripts/connect.mjs",
+    "setup": "node scripts/setup.mjs",
+    "connect": "node scripts/connect.mjs"
+  }
+}

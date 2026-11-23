@@ -1,0 +1,9 @@
+{
+  "accountId": "YOUR_CLOUDFLARE_ACCOUNT_ID",
+  "workerName": "backlogbot",
+  "url": "https://backlogbot.YOUR_SUBDOMAIN.workers.dev",
+  "status": "not-deployed",
+  "databaseName": "backlogbot-db",
+  "databaseId": "YOUR_D1_DATABASE_ID",
+  "cron": "* * * * *"
+}

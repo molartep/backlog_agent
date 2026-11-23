@@ -1,0 +1,31 @@
+[
+  {
+    "original": "BacklogBot: make sure repeated Telegram messages do not create duplicate tasks",
+    "response": {
+      "kind": "create",
+      "project": "BacklogBot",
+      "title": "Prevent duplicate tasks from repeated Telegram messages",
+      "description": "Ensure that repeated Telegram messages do not create duplicate tasks in BacklogBot",
+      "status": "Backlog",
+      "priority": "Medium",
+      "taskId": "TASK-001"
+    }
+  },
+  {
+    "original": "Show open tasks for LIFE",
+    "response": {
+      "kind": "query",
+      "project": "LIFE",
+      "openOnly": true
+    }
+  },
+  {
+    "original": "ResumeLens: move TASK-42 to In progress",
+    "response": {
+      "kind": "update",
+      "project": "ResumeLens",
+      "taskId": "TASK-42",
+      "status": "In progress"
+    }
+  }
+]

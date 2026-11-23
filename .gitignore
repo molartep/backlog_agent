@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+.dev.vars
+.secrets.json
+.cloudflare/
+.DS_Store
+backlogbot.config.json
+cloudflare.metadata.json
+deployment.json
